@@ -314,9 +314,9 @@ It creates a new paging menu controller. Do not forget to cleanup properties in 
 
 ## Requirements
 
-iOS9+  
-Swift 3.0+  
-Xcode 8.0+
+iOS12+  
+Swift 5.0+  
+Xcode 12.0+
 
 [v1.4.0](https://github.com/kitasuke/PagingMenuController/releases/tag/1.4.0) for iOS 8 in Swift 3.0  
 [v1.2.0](https://github.com/kitasuke/PagingMenuController/releases/tag/1.2.0) for iOS 8 in Swift 2.3
