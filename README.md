@@ -323,6 +323,23 @@ Xcode 8.0+
 
 ## Installation
 
+### Swift Package Manager
+PagingMenuController is available through [Swift Package Manager](https://swift.org/package-manager/).
+
+#### Xcode
+1. In Xcode, go to File > Add Packages...
+2. Enter the repository URL: `https://github.com/kitasuke/PagingMenuController.git`
+3. Select the version you want to install
+4. Add PagingMenuController to your target
+
+#### Package.swift
+Add the following to your Package.swift file:
+```swift
+dependencies: [
+    .package(url: "https://github.com/kitasuke/PagingMenuController.git", from: "2.2.0")
+]
+```
+
 ### CocoaPods
 PagingMenuController is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:

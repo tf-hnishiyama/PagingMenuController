@@ -253,7 +253,7 @@ open class PagingMenuController: UIViewController {
         
         pagingViewController = PagingViewController(viewControllers: viewControllers, options: options)
     }
-
+    
     fileprivate func layoutPagingViewController() {
         guard let pagingViewController = pagingViewController else { return }
         
