@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/cocoapods/l/PagingMenuController.svg?style=flat)](http://cocoapods.org/pods/PagingMenuController)
 [![Platform](https://img.shields.io/cocoapods/p/PagingMenuController.svg?style=flat)](http://cocoapods.org/pods/PagingMenuController)
-![Swift 5.0+](https://img.shields.io/badge/Swift-5.0+-orange.svg)
+![Swift 6.0+](https://img.shields.io/badge/Swift-6.0+-orange.svg)
 
 Customizable paging view controller with menu tabs.  
 This library is originally forked from [kitasuke/PagingMenuController](https://github.com/kitasuke/PagingMenuController).
