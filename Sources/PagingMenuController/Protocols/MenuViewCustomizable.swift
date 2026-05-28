@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public protocol MenuViewCustomizable {
     var backgroundColor: UIColor { get }
