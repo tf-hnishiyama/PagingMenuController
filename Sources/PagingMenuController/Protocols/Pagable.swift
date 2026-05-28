@@ -8,6 +8,7 @@
 
 import Foundation
 
+@MainActor
 protocol Pagable {
     var currentPage: Int { get }
     var previousPage: Int { get }

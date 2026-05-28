@@ -16,8 +16,9 @@ Pod::Spec.new do |s|
   s.author           = { "kitasuke" => "yusuke2759@gmail.com" }
   s.source           = { :git => "https://github.com/kitasuke/PagingMenuController.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '12.0'
   s.requires_arc = true
+  s.swift_version = '5.0'
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Sources/PagingMenuController/**/*'
 end

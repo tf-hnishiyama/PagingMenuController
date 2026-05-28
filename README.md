@@ -314,14 +314,31 @@ It creates a new paging menu controller. Do not forget to cleanup properties in 
 
 ## Requirements
 
-iOS9+  
-Swift 3.0+  
-Xcode 8.0+
+iOS12+  
+Swift 5.0+  
+Xcode 12.0+
 
 [v1.4.0](https://github.com/kitasuke/PagingMenuController/releases/tag/1.4.0) for iOS 8 in Swift 3.0  
 [v1.2.0](https://github.com/kitasuke/PagingMenuController/releases/tag/1.2.0) for iOS 8 in Swift 2.3
 
 ## Installation
+
+### Swift Package Manager
+PagingMenuController is available through [Swift Package Manager](https://swift.org/package-manager/).
+
+#### Xcode
+1. In Xcode, go to File > Add Packages...
+2. Enter the repository URL: `https://github.com/kitasuke/PagingMenuController.git`
+3. Select the version you want to install
+4. Add PagingMenuController to your target
+
+#### Package.swift
+Add the following to your Package.swift file:
+```swift
+dependencies: [
+    .package(url: "https://github.com/kitasuke/PagingMenuController.git", from: "2.2.0")
+]
+```
 
 ### CocoaPods
 PagingMenuController is available through [CocoaPods](http://cocoapods.org). To install
